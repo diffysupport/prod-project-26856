@@ -54,11 +54,11 @@ basic:
         - /ms_widget_builder/toh-get-water-heater-quotes
         - /ms_widget_builder/toh-get-well-pump-quotes
         - /ms_widget_builder/toh-get-window-quotes
-        - /ms_widget_builder/get-a-gutter-guards-america-quote
         - /ms_widget_builder/get-a-bakers-waterproofing-and-foundation-repair-quote
-        - /ms_widget_builder/get-a-floor-coverings-international-quote
+        - /ms_widget_builder/get-a-venture-solar-quote
+        - /ms_widget_builder/get-a-homecraft-quote
         - /ms_widget_builder/get-a-tar-heel-basement-systems-quote
-        - /ms_widget_builder/get-an-erie-roofing-quote
+        - /ms_widget_builder/get-a-castle-windows-quote
     monitoring:
         days: [Sun]
         type: weekly
