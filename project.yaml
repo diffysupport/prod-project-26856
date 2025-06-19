@@ -1,0 +1,83 @@
+basic:
+    name: 'TOH-FORMS (previously HSQ)'
+    environments:
+        production: 'https://thisoldhouse.allstarpros.com'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /ms_widget_builder/toh-get-appliance-repair-quotes
+        - /ms_widget_builder/toh-get-basement-quotes
+        - /ms_widget_builder/toh-get-bathroom-remodeling-quotes
+        - /ms_widget_builder/toh-get-concrete-quotes
+        - /ms_widget_builder/toh-get-door-quotes
+        - /ms_widget_builder/toh-get-driveway-quotes
+        - /ms_widget_builder/toh-get-drywall-quotes
+        - /ms_widget_builder/toh-get-electrician-quotes
+        - /ms_widget_builder/toh-get-exterior-painting-quotes
+        - /ms_widget_builder/toh-get-flooring-quotes
+        - /ms_widget_builder/toh-get-foundation-repair-quotes
+        - /ms_widget_builder/toh-get-garage-door-quotes
+        - /ms_widget_builder/toh-get-garbage-disposal-quotes
+        - /ms_widget_builder/toh-get-gutter-cleaning-quotes
+        - /ms_widget_builder/toh-get-gutter-guard-quotes
+        - /ms_widget_builder/toh-get-gutter-quotes
+        - /ms_widget_builder/toh-get-home-remodeling-quotes
+        - /ms_widget_builder/toh-get-home-renovation-quotes
+        - /ms_widget_builder/toh-get-hvac-quotes
+        - /ms_widget_builder/toh-get-insulation-quotes
+        - /ms_widget_builder/toh-get-interior-painting-quotes
+        - /ms_widget_builder/toh-get-kitchen-remodeling-quotes
+        - /ms_widget_builder/toh-get-land-survey-quotes
+        - /ms_widget_builder/toh-get-landscaping-quotes
+        - /ms_widget_builder/toh-get-lawn-aeration-quotes
+        - /ms_widget_builder/toh-get-lawn-care-quotes
+        - /ms_widget_builder/toh-get-locksmith-quotes
+        - /ms_widget_builder/toh-get-metal-roofing-quotes
+        - /ms_widget_builder/toh-get-mold-removal-quotes
+        - /ms_widget_builder/toh-get-moving-quotes
+        - /ms_widget_builder/toh-get-pest-control-quotes
+        - /ms_widget_builder/toh-get-plumbing-quotes
+        - /ms_widget_builder/toh-get-pool-installation-quotes
+        - /ms_widget_builder/toh-get-propane-tank-quotes
+        - /ms_widget_builder/toh-get-roofing-quotes
+        - /ms_widget_builder/toh-get-siding-quotes
+        - /ms_widget_builder/toh-get-solar-quotes
+        - /ms_widget_builder/toh-get-stump-removal-quotes
+        - /ms_widget_builder/toh-get-tree-pruning-quotes
+        - /ms_widget_builder/toh-get-tree-removal-quotes
+        - /ms_widget_builder/toh-get-walk-in-tub-quotes
+        - /ms_widget_builder/toh-get-water-filtration-quotes
+        - /ms_widget_builder/toh-get-water-heater-quotes
+        - /ms_widget_builder/toh-get-well-pump-quotes
+        - /ms_widget_builder/toh-get-window-quotes
+    monitoring:
+        days: [Sun]
+        type: weekly
+        schedule_time: '10:30 PM'
+        schedule_time_zone: America/New_York
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers: {  }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: {  }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
