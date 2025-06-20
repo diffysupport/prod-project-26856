@@ -68,7 +68,7 @@ basic:
         compare_with_fresh: production
 advanced:
     mask: ''
-    remove: ''
+    remove: '#onetrust-consent-sdk'
     delay: 15
     scroll: true
     headers: {  }
